@@ -8,8 +8,6 @@ import MapFour from '../components/MapFour';
 import '../App.css';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
-//google api key = YOUR KEY
-
 const App = () => {
   return (
     <div>

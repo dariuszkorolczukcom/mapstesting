@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import ReactMapGL, {Marker} from 'react-map-gl';
+import {env} from '../set.js'
 
 class MapOne extends Component {
     constructor(props) {
@@ -17,7 +18,7 @@ class MapOne extends Component {
 
     render() {
         return (<div>
-            <ReactMapGL  mapboxApiAccessToken={'pk.eyJ1IjoiZGFyaXVzemtvcm9sY3p1ayIsImEiOiJjam56dHFhOGQwYjFmM3ZsaW0yb3d4ZmhqIn0.wEimGWhG85j3O8kbr26w1Q'}
+            <ReactMapGL  mapboxApiAccessToken={env.MAP_BOX}
                 {...this.state.viewport}
                 onViewportChange={(viewport) => this.setState({ viewport })}
             >

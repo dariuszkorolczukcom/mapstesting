@@ -2,6 +2,8 @@ import React from 'react';
 import { GoogleApiWrapper, InfoWindow, Map, Marker } from 'google-maps-react';
 import Typography from '@material-ui/core/Typography';
 import { typography } from 'material-ui/styles';
+import {env} from '../set.js';
+
 class MapFour extends React.Component {
   constructor(props) {
     super(props);
@@ -74,5 +76,5 @@ class MapFour extends React.Component {
   }
 }
 export default GoogleApiWrapper({
-    api: ('pk.eyJ1IjoiZGFyaXVzemtvcm9sY3p1ayIsImEiOiJjam56dHFhOGQwYjFmM3ZsaW0yb3d4ZmhqIn0.wEimGWhG85j3O8kbr26w1Q')
+    api: (env.GOOGLE_MAPS)
 })(MapFour)

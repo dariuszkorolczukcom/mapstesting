@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import GoogleMapReact from 'google-map-react';
- 
+import {env} from '../set.js';
+
 class MapThree extends Component {
   static defaultProps = {
     center: {
@@ -15,7 +16,7 @@ class MapThree extends Component {
       // Important! Always set the container height explicitly
       <div style={{ height: '400px', width: '100%' }}>
         <GoogleMapReact
-          bootstrapURLKeys={{ key: 'AIzaSyBd1MmsZSvZBgAKsCO8D6BAFOpkHzODRFs' }}
+          bootstrapURLKeys={{ key: env.GOOGLE_MAPS }}
           defaultCenter={this.props.center}
           defaultZoom={this.props.zoom}
         >
