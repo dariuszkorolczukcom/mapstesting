@@ -22,11 +22,11 @@ class MapOne extends Component {
                 {...this.state.viewport}
                 onViewportChange={(viewport) => this.setState({ viewport })}
             >
-            <Marker latitude={37.78} longitude={-122.43} offsetLeft={-20} offsetTop={-10}><img className="marker" src="images/map-marker.png"/></Marker>
-            <Marker latitude={37.80} longitude={-122.45} offsetLeft={-20} offsetTop={-10}><img className="marker" src="images/map-marker.png"/></Marker>
-            <Marker latitude={37.82} longitude={-122.41} offsetLeft={-20} offsetTop={-10}><img className="marker" src="images/map-marker.png"/></Marker>
-            <Marker latitude={37.84} longitude={-122.47} offsetLeft={-20} offsetTop={-10}><img className="marker" src="images/map-marker.png"/></Marker>
-            <Marker latitude={37.86} longitude={-122.49} offsetLeft={-20} offsetTop={-10}><img className="marker" src="images/map-marker.png"/></Marker>
+            <Marker latitude={37.78} longitude={-122.43} offsetLeft={-20} offsetTop={-10}><img className="marker" src="images/map-marker.png" alt="marker"/></Marker>
+            <Marker latitude={37.80} longitude={-122.45} offsetLeft={-20} offsetTop={-10}><img className="marker" src="images/map-marker.png" alt="marker"/></Marker>
+            <Marker latitude={37.82} longitude={-122.41} offsetLeft={-20} offsetTop={-10}><img className="marker" src="images/map-marker.png" alt="marker"/></Marker>
+            <Marker latitude={37.84} longitude={-122.47} offsetLeft={-20} offsetTop={-10}><img className="marker" src="images/map-marker.png" alt="marker"/></Marker>
+            <Marker latitude={37.86} longitude={-122.49} offsetLeft={-20} offsetTop={-10}><img className="marker" src="images/map-marker.png" alt="marker"/></Marker>
             </ReactMapGL>
             </div>
         );

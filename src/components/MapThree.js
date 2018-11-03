@@ -20,7 +20,7 @@ class MapThree extends Component {
           defaultCenter={this.props.center}
           defaultZoom={this.props.zoom}
         >
-          <img src="images/map-marker.png"
+          <img src="images/map-marker.png" alt='marker'
             lat={37.7577}
             lng={-122.4376}
           />

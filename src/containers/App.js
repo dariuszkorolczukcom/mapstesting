@@ -6,7 +6,7 @@ import MapTwo from '../components/MapTwo';
 import MapThree from '../components/MapThree';
 import MapFour from '../components/MapFour';
 import '../App.css';
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
 const App = () => {
   return (

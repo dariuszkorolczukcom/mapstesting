@@ -1,7 +1,6 @@
 import React from 'react';
 import { GoogleApiWrapper, InfoWindow, Map, Marker } from 'google-maps-react';
 import Typography from '@material-ui/core/Typography';
-import { typography } from 'material-ui/styles';
 import {env} from '../set.js';
 
 class MapFour extends React.Component {
