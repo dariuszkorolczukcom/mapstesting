@@ -4,16 +4,16 @@ const Header = () => {
     return (
       <ul>
         <li>
-          <a href="/mapone">Map One</a>
+          <a href="/mapone">react-map-gl</a>
         </li>
         <li>
-          <a href="/maptwo">Map Two</a>
+          <a href="/maptwo">react-google-maps</a>
         </li>
         <li>
-          <a href="/mapthree">Map Three</a>
+          <a href="/mapthree">google-map-react</a>
         </li>
         <li>
-          <a href="/mapfour">Map Four</a>
+          <a href="/mapfour">google-maps-react</a>
         </li>
       </ul>
     );
