@@ -33,7 +33,6 @@ class MapFour extends React.Component {
   render() {
     const style = {
       width: '50%',
-      height: '50%',
       'marginLeft': 'auto',
       'marginRight': 'auto'
     }
@@ -75,5 +74,5 @@ class MapFour extends React.Component {
   }
 }
 export default GoogleApiWrapper({
-    api: (env.GOOGLE_MAPS)
+    apiKey: (env.GOOGLE_MAPS)
 })(MapFour)

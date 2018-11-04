@@ -15,8 +15,8 @@ const MyMapComponent = compose(
   withScriptjs,
   withGoogleMap
 )(props => (
-  <GoogleMap defaultZoom={8} defaultCenter={{ lat: 37.7577, lng: -122.4376 }}>
-    <Marker key={1} position={{ lat: 37.78, lng: -122.45 }} />
+  <GoogleMap defaultZoom={5} defaultCenter={{ lat: 53.479998, lng:-2.24111 }}>
+    <Marker key={1} position={{ lat: 53.479998, lng:-2.24111 }} />
     <Marker key={2} position={{ lat: 37.78, lng: -122.41 }} />
     <Marker key={3} position={{ lat: 37.78, lng: -122.43 }} />
     <Marker key={4} position={{ lat: 37.78, lng: -122.47 }} />
