@@ -1,12 +1,4 @@
 import React from 'react';
-import Header from './Header';
-import Footer from './Footer';
-import MapOne from '../components/MapOne';
-import MapTwo from '../components/MapTwo';
-import MapThree from '../components/MapThree';
-// import MapFour from '../components/MapFour';
-import MapFive from '../components/MapFive';
-import MapSix from '../components/MapSix';
 import '../App.css';
 
 const mapsArray = (activeMap, elementsArray) => {
@@ -43,7 +35,9 @@ export default class MapsGrid extends React.Component {
     render() {
         return (
             <React.Fragment>
-                {this.props.elementsArray[this.state.activeMap]}
+                {this.props.elementsArray.map((item, index) => {
+                      return(<React.Fragment><div style={{display: index == this.state.activeMap ? 'block': 'none'}}>{item}</div></React.Fragment>)
+                })}
             </React.Fragment>
 
         )

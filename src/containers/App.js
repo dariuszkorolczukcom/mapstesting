@@ -23,7 +23,7 @@ const App = () => {
           <Route path="/mapfive/" component={() => (<div><MapFive/><MapSix/></div>)} />
         </div>
       </Router> */}
-      <MapsGrid duration={[1000,10000,1000,20000,60000]} elementsArray={[[<MapOne/>],[<MapTwo/>],[<MapThree/>],[<MapFive/>],[<MapSix/>]]}/>
+      <MapsGrid duration={[6000,6000,6000,6000,6000]} elementsArray={[[<MapOne/>],[<MapTwo/>],[<MapThree/>],[<MapFive/>],[<MapSix/>]]}/>
       <Footer />
     </div>
   );
