@@ -8,7 +8,7 @@ const Header = () => {
       <Button style={buttonStyle} variant="contained" href="/mapone">react-map-gl</Button>
         <Button style={buttonStyle} variant="contained" href="/maptwo">react-google-maps</Button>
         <Button style={buttonStyle} variant="contained" href="/mapthree">google-map-react</Button>
-        <Button style={buttonStyle} variant="contained" href="/mapfour">google-maps-react</Button>
+        {/* <Button style={buttonStyle} variant="contained" href="/mapfour">google-maps-react</Button> */}
         <Button style={buttonStyle} variant="contained" href="/mapfive">google-maps-react 2</Button>
         </div>
     );
